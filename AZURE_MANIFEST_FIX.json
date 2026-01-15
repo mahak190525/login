@@ -1,0 +1,119 @@
+{
+	"id": "e2524740-1802-4e5d-9c4b-07ead46c5d91",
+	"deletedDateTime": null,
+	"appId": "b8cc1688-3739-44d1-9f87-5040dc3d2071",
+	"applicationTemplateId": null,
+	"disabledByMicrosoftStatus": null,
+	"createdDateTime": "2026-01-13T15:34:39Z",
+	"displayName": "Mechlin Client Portal",
+	"description": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [],
+	"isDeviceOnlyAuthSupported": null,
+	"isFallbackPublicClient": null,
+	"nativeAuthenticationApisEnabled": null,
+	"notes": null,
+	"publisherDomain": "mechlintech.com",
+	"serviceManagementReference": null,
+	"signInAudience": "AzureADMyOrg",
+	"tags": [],
+	"tokenEncryptionKeyId": null,
+	"samlMetadataUrl": null,
+	"defaultRedirectUri": null,
+	"certification": null,
+	"optionalClaims": null,
+	"requestSignatureVerification": null,
+	"addIns": [],
+	"api": {
+		"acceptMappedClaims": null,
+		"knownClientApplications": [],
+		"requestedAccessTokenVersion": 2,
+		"oauth2PermissionScopes": [],
+		"preAuthorizedApplications": []
+	},
+	"appRoles": [],
+	"info": {
+		"logoUrl": null,
+		"marketingUrl": null,
+		"privacyStatementUrl": null,
+		"supportUrl": null,
+		"termsOfServiceUrl": null
+	},
+	"keyCredentials": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"displayName": "secret1",
+			"endDateTime": "2028-01-12T18:30:00Z",
+			"hint": "m5Z",
+			"keyId": "a5975aad-2b64-42f1-b15a-3be42e1698f8",
+			"startDateTime": "2026-01-13T15:37:13.527Z",
+			"secretText": null
+		}
+	],
+	"publicClient": {
+		"redirectUris": []
+	},
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "64a6cdd6-aab1-4aaf-94b8-3cc8405e90d0",
+					"type": "Scope"
+				},
+				{
+					"id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182",
+					"type": "Scope"
+				},
+				{
+					"id": "37f7f235-527c-4136-accd-4a02d197296e",
+					"type": "Scope"
+				},
+				{
+					"id": "14dad69e-099b-42c9-810b-d002981feec1",
+					"type": "Scope"
+				},
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"verifiedPublisher": {
+		"displayName": null,
+		"verifiedPublisherId": null,
+		"addedDateTime": null
+	},
+	"web": {
+		"homePageUrl": null,
+		"logoutUrl": null,
+		"redirectUris": [
+			"https://cglsdgdrixtgpnemyjhh.supabase.co/auth/v1/callback"
+		],
+		"implicitGrantSettings": {
+			"enableAccessTokenIssuance": false,
+			"enableIdTokenIssuance": false
+		},
+		"redirectUriSettings": []
+	},
+	"servicePrincipalLockConfiguration": {
+		"isEnabled": true,
+		"allProperties": true,
+		"credentialsWithUsageVerify": true,
+		"credentialsWithUsageSign": true,
+		"identifierUris": false,
+		"tokenEncryptionKeyId": true
+	},
+	"spa": {
+		"redirectUris": [
+			"http://localhost:5173",
+			"https://cglsdgdrixtgpnemyjhh.supabase.co/auth/v1/callback"
+		]
+	}
+}

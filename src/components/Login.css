@@ -1,0 +1,115 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.login-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.login-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a202c;
+  margin: 0 0 8px 0;
+}
+
+.login-header p {
+  font-size: 16px;
+  color: #718096;
+  margin: 0;
+}
+
+.error-message {
+  background-color: #fee;
+  border: 1px solid #fcc;
+  color: #c33;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.login-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.oauth-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 20px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  background: white;
+  color: #1a202c;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.oauth-button:hover:not(:disabled) {
+  border-color: #cbd5e0;
+  background: #f7fafc;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.oauth-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.oauth-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.azure-button:hover:not(:disabled) {
+  border-color: #0078d4;
+  background: #f0f8ff;
+}
+
+.google-button:hover:not(:disabled) {
+  border-color: #4285f4;
+  background: #f8f9ff;
+}
+
+.oauth-button svg {
+  flex-shrink: 0;
+}
+
+.loading-spinner {
+  text-align: center;
+  padding: 40px;
+  color: #718096;
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    padding: 24px;
+  }
+
+  .login-header h1 {
+    font-size: 24px;
+  }
+}
